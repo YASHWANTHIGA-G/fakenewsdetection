@@ -1,0 +1,6 @@
+Model,CV_F1,Best_Params,Accuracy,Precision,Recall,F1 Score,ROC-AUC
+Multinomial Naive Bayes,1.0,{'alpha': 0.01},1.0,1.0,1.0,1.0,1.0
+Logistic Regression,0.9333333333333332,"{'C': 0.1, 'penalty': 'l2'}",1.0,1.0,1.0,1.0,1.0
+Passive Aggressive,0.9333333333333332,"{'C': 0.1, 'loss': 'hinge'}",1.0,1.0,1.0,1.0,1.0
+Linear SVM,0.9333333333333332,{'C': 0.05},1.0,1.0,1.0,1.0,1.0
+Random Forest,0.7111111111111111,"{'max_depth': 20, 'n_estimators': 100}",0.5,0.0,0.0,0.0,1.0

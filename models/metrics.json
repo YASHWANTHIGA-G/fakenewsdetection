@@ -1,0 +1,229 @@
+{
+  "best_model_name": "Multinomial Naive Bayes",
+  "best_cv_f1": 1.0,
+  "test_accuracy": 1.0,
+  "test_f1": 1.0,
+  "test_precision": 1.0,
+  "test_recall": 1.0,
+  "test_roc_auc": 1.0,
+  "total_articles": 16,
+  "vocabulary_size": 1135,
+  "all_models_benchmarked": [
+    {
+      "Model": "Logistic Regression",
+      "CV_F1": 0.9333333333333332,
+      "Best_Params": "{'C': 0.1, 'penalty': 'l2'}",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1 Score": 1.0,
+      "ROC-AUC": 1.0
+    },
+    {
+      "Model": "Multinomial Naive Bayes",
+      "CV_F1": 1.0,
+      "Best_Params": "{'alpha': 0.01}",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1 Score": 1.0,
+      "ROC-AUC": 1.0
+    },
+    {
+      "Model": "Passive Aggressive",
+      "CV_F1": 0.9333333333333332,
+      "Best_Params": "{'C': 0.1, 'loss': 'hinge'}",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1 Score": 1.0,
+      "ROC-AUC": 1.0
+    },
+    {
+      "Model": "Linear SVM",
+      "CV_F1": 0.9333333333333332,
+      "Best_Params": "{'C': 0.05}",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1 Score": 1.0,
+      "ROC-AUC": 1.0
+    },
+    {
+      "Model": "Random Forest",
+      "CV_F1": 0.7111111111111111,
+      "Best_Params": "{'max_depth': 20, 'n_estimators': 100}",
+      "Accuracy": 0.5,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1 Score": 0.0,
+      "ROC-AUC": 1.0
+    }
+  ],
+  "top_features": {
+    "top_fake_words": [
+      {
+        "word": "corrupt",
+        "coefficient": 0.01669015756092346
+      },
+      {
+        "word": "medium",
+        "coefficient": 0.015331294605510148
+      },
+      {
+        "word": "secret",
+        "coefficient": 0.01489489510353369
+      },
+      {
+        "word": "caught",
+        "coefficient": 0.01344006485598353
+      },
+      {
+        "word": "elite",
+        "coefficient": 0.010667156377421558
+      },
+      {
+        "word": "truth",
+        "coefficient": 0.010400320735141834
+      },
+      {
+        "word": "cure",
+        "coefficient": 0.009541801898957945
+      },
+      {
+        "word": "bunker",
+        "coefficient": 0.008663948877117711
+      },
+      {
+        "word": "crisis",
+        "coefficient": 0.008663948877117711
+      },
+      {
+        "word": "billionaire",
+        "coefficient": 0.008556180279053303
+      },
+      {
+        "word": "gun",
+        "coefficient": 0.008556180279053303
+      },
+      {
+        "word": "smoking gun",
+        "coefficient": 0.008556180279053303
+      },
+      {
+        "word": "smoking",
+        "coefficient": 0.008556180279053303
+      },
+      {
+        "word": "refusing",
+        "coefficient": 0.008556180279053303
+      },
+      {
+        "word": "nasa",
+        "coefficient": 0.008308647072296534
+      },
+      {
+        "word": "silence",
+        "coefficient": 0.008308647072296534
+      },
+      {
+        "word": "sun",
+        "coefficient": 0.008308647072296534
+      },
+      {
+        "word": "establishment",
+        "coefficient": 0.008306905330271726
+      },
+      {
+        "word": "foreign",
+        "coefficient": 0.008254110131675738
+      },
+      {
+        "word": "overseas",
+        "coefficient": 0.008254110131675738
+      }
+    ],
+    "top_real_words": [
+      {
+        "word": "department",
+        "coefficient": 0.01420848747429489
+      },
+      {
+        "word": "regulatory",
+        "coefficient": 0.013500663139222465
+      },
+      {
+        "word": "federal",
+        "coefficient": 0.013244961101866074
+      },
+      {
+        "word": "report washington",
+        "coefficient": 0.012950618892787475
+      },
+      {
+        "word": "health",
+        "coefficient": 0.010994349504777682
+      },
+      {
+        "word": "regional",
+        "coefficient": 0.010910810149097928
+      },
+      {
+        "word": "energy",
+        "coefficient": 0.010412999409644748
+      },
+      {
+        "word": "court",
+        "coefficient": 0.009946265623793893
+      },
+      {
+        "word": "malaria",
+        "coefficient": 0.009668914846620382
+      },
+      {
+        "word": "european",
+        "coefficient": 0.009157649986114317
+      },
+      {
+        "word": "washington",
+        "coefficient": 0.00880082127891222
+      },
+      {
+        "word": "consumer",
+        "coefficient": 0.008391761588969465
+      },
+      {
+        "word": "antitrust",
+        "coefficient": 0.008340874928891953
+      },
+      {
+        "word": "telecommunication",
+        "coefficient": 0.008340874928891953
+      },
+      {
+        "word": "broadband",
+        "coefficient": 0.008340874928891953
+      },
+      {
+        "word": "department justice",
+        "coefficient": 0.008340874928891953
+      },
+      {
+        "word": "standard",
+        "coefficient": 0.008231330224233654
+      },
+      {
+        "word": "administrative",
+        "coefficient": 0.008231330224233654
+      },
+      {
+        "word": "treasury",
+        "coefficient": 0.00820348381892553
+      },
+      {
+        "word": "credit",
+        "coefficient": 0.00820348381892553
+      }
+    ]
+  }
+}

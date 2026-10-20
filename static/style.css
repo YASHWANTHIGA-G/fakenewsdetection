@@ -1,0 +1,59 @@
+/* Mirror of styles for static/style.css */
+:root {
+  --bg-base: #0B0F19;
+  --bg-surface: #111827;
+  --bg-card: #182234;
+  --bg-input: #0F172A;
+  --border-subtle: #243247;
+  --border-glow: #3B82F6;
+
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+
+  --emerald-500: #10B981;
+  --emerald-400: #34D399;
+  --emerald-bg: rgba(16, 185, 129, 0.12);
+  --emerald-border: rgba(16, 185, 129, 0.35);
+
+  --rose-500: #EF4444;
+  --rose-400: #F87171;
+  --rose-bg: rgba(239, 68, 68, 0.12);
+  --rose-border: rgba(239, 68, 68, 0.35);
+
+  --amber-500: #F59E0B;
+  --amber-400: #FBBF24;
+  --amber-bg: rgba(245, 158, 11, 0.12);
+  --amber-border: rgba(245, 158, 11, 0.35);
+
+  --blue-600: #2563EB;
+  --blue-500: #3B82F6;
+  --blue-glow: rgba(59, 130, 246, 0.35);
+
+  --font-display: 'Outfit', -apple-system, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 0 0 1px var(--border-subtle);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
