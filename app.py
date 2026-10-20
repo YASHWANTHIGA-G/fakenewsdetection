@@ -9,6 +9,8 @@ Provides:
 
 from __future__ import annotations
 
+import os
+
 from flask import Flask, jsonify, render_template, request
 
 from src.predict import get_model_info, load_inference_artifacts, predict_news
@@ -94,7 +96,9 @@ def api_predict():
 
 
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    host = os.environ.get("HOST", "0.0.0.0")
     print("=" * 60)
-    print("Fake News Detector running on http://127.0.0.1:5000")
+    print(f"Fake News Detector running on http://{host}:{port}")
     print("=" * 60)
-    app.run(host="127.0.0.1", port=5000, debug=False)
+    app.run(host=host, port=port, debug=False)

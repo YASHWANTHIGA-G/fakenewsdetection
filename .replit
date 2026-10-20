@@ -1,0 +1,11 @@
+run = "python app.py"
+entrypoint = "app.py"
+hidden = [".venv", "reports"]
+
+[deployment]
+run = ["python", "app.py"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
